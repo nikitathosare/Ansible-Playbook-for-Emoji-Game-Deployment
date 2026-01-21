@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neon Memory Challenge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>⚡ Neon Memory ⚡</h1>
+    
+    <div class="stats-bar">
+      <div class="stat-box">
+        <div class="stat-label">Time</div>
+        <div class="stat-value" id="timerDisplay">120</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">Moves</div>
+        <div class="stat-value" id="movesDisplay">0</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">Pairs</div>
+        <div class="stat-value" id="pairsDisplay">0/8</div>
+      </div>
+    </div>
+
+    <div class="grid-container" id="gameGrid"></div>
+    
+    <div class="status-message" id="statusMsg">Find all matching pairs!</div>
+    
+    <button class="btn-restart" id="restartBtn">Restart Game</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
